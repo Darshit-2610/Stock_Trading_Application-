@@ -1,8 +1,9 @@
+import HomePage from "./landing_page/home/HomePage";
+
 function App() {
   return (
     <div>
-      <h1>React App is Working 🚀</h1>
-      <p>Zerodha Clone Setup Successful</p>
+     <HomePage />
     </div>
   );
 }
