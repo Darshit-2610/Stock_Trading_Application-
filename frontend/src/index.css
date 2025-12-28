@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link{
+  margin-left: 40px;
+}
+
+.teamHeroImg {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.Productlogo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+
+.support-accordion-btn {
+  transition: background-color 0.2s ease;
+}
+
+.support-accordion-btn:hover {
+  background-color: #f5f8ff;
+}
+
+.accordion-item {
+  border-radius: 6px;
+  overflow: hidden;
+}

@@ -1,14 +1,73 @@
-import React from 'react'
+import React from "react";
+import tradeX from "../assets/media/tradeX.png";
+
+
+import {Link} from  "react-router-dom";
 
 function Navbar() {
   return (
-    <div>Navbar
-      <i className="fa fa-twitter">Hello</i>
-<i className="fa fa-facebook">ji</i>
-<i className="fa fa-linkedin"></i>
-
-    </div>
-  )
+    <nav
+      className="navbar navbar-expand-lg border-bottom sticky-top"
+      style={{ backgroundColor: "#FFF" }}
+    >
+      <div className="container p-2">
+        <Link className="navbar-brand" to="/">
+          <img
+            src={tradeX}
+            style={{ width: "25%" }}
+            alt="Logo"
+          />
+        </Link>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <form className="d-flex" role="search">
+            <ul className="navbar-nav mb-lg-0">
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/signup">
+                  Signup
+                </ Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" to="/about">
+                  About
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" to = "/product">
+                  Product
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" to = "/pricing">
+                  Pricing
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" to = "/support">
+                  Support
+                </Link>
+              </li>
+              <li className="nav-item ms-3">
+              <a className="nav-link" href="#">
+                <i className="fa fa-bars" style={{ fontSize: "18px" }}></i>
+              </a>
+            </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;

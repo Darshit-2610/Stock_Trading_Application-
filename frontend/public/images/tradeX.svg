@@ -1,0 +1,13 @@
+<svg width="180" height="40" viewBox="0 0 180 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon background -->
+  <rect x="0" y="0" width="40" height="40" rx="6" fill="#387ED1"></rect>
+
+  <!-- Upward arrow / chart -->
+  <path d="M12 24L18 18L23 22L30 14" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M28 14H30V16" stroke="white" stroke-width="3" stroke-linecap="round"></path>
+
+  <!-- Brand name -->
+  <text x="52" y="26" font-size="20" font-weight="600" fill="#387ED1" font-family="Arial, Helvetica, sans-serif">
+    TradeX
+  </text>
+</svg>
